@@ -94,12 +94,3 @@ jupyter notebook exploring/preprocessing.ipynb
 
 - PhysioNet/CinC Challenge 2017 : *AF Classification from a Short Single Lead ECG Recording*. [https://physionet.org/content/challenge-2017/1.0.0/](https://physionet.org/content/challenge-2017/1.0.0/)
 - Clifford, G. D., et al. (2017). *AF Classification from a Short Single Lead ECG Recording: The PhysioNet Computing in Cardiology Challenge 2017*. Computing in Cardiology.
-
-## Équipe
-
-- [Nom Prénom]
-- [Nom Prénom]
-
-## Licence
-
-Projet académique — usage éducatif uniquement.
