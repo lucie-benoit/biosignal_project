@@ -69,10 +69,10 @@ wget -r -N -c -np https://physionet.org/files/challenge-2017/1.0.0/
 
 ```bash
 # Exploration des données
-jupyter notebook notebooks/01_exploration.ipynb
+jupyter notebook exploring/exploration.ipynb
 
 # Lancer le pipeline complet
-python src/model.py --config config.yaml
+jupyter notebook exploring/preprocessing.ipynb
 ```
 
 ## Méthodologie
@@ -84,11 +84,11 @@ python src/model.py --config config.yaml
 
 ## Résultats
 
-*(À compléter au fur et à mesure de l'avancement du projet)*
+*en moyenne*
 
 | Modèle | Accuracy | F1-score (macro) |
 |---|---|---|
-| Baseline | - | - |
+| Baseline | 0.87 | 78.08 |
 
 ## Références
 
