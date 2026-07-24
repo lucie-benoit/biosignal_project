@@ -24,17 +24,21 @@ La fibrillation auriculaire (FA) est l'arythmie cardiaque la plus fréquente et 
 ## Structure du dépôt
 
 ```
-.
-├── data/                   # Données brutes et prétraitées (non versionnées, voir .gitignore)
-├── notebooks/              # Notebooks d'exploration et de prototypage
-├── src/                    # Code source du pipeline
-│   ├── preprocessing.py    # Filtrage et nettoyage des signaux ECG
-│   ├── features.py         # Extraction de features
-│   ├── model.py             # Entraînement et évaluation du modèle
-│   └── utils.py             # Fonctions utilitaires
-├── results/                 # Résultats, figures, métriques
-├── report/                  # Rapport final du projet
-├── requirements.txt         # Dépendances Python
+├── data/                     # Données brutes et prétraitées (non versionnées, voir .gitignore)
+├── exploring/                # Notebooks d'exploration et de prototypage
+│   ├── exploration.ipynb     # Chargement et visualisation des signaux ECG
+│   └── preprocessing.ipynb   # Prototypage du prétraitement du signal
+├── model/                    # Code source du pipeline
+│   ├── prepare_data.py       # Préparation des données (features, split train/test)
+│   ├── model.py               # Définition du modèle
+│   ├── train.py                # Entraînement du modèle
+│   ├── evaluate.py            # Évaluation et métriques
+│   └── run.py                  # Script principal (exécute le pipeline complet)
+├── results/                   # Résultats, figures, métriques
+│   ├── confusion_matrix.png
+│   ├── curve_proposed1.png
+│   └── misclassified_example.png
+├── environment.yml            # Environnement conda
 └── README.md
 ```
 
