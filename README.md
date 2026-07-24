@@ -42,8 +42,8 @@ La fibrillation auriculaire (FA) est l'arythmie cardiaque la plus fréquente et 
 
 ```bash
 # Cloner le dépôt
-git clone <url-du-repo>
-cd <nom-du-repo>
+git clone https://github.com/lucie-benoit/biosignal_project
+cd biosignal_project
 
 # Créer un environnement virtuel
 python -m venv venv
